@@ -1,0 +1,18 @@
+<div class="bg">
+    
+    <div id="toolbar">
+        <div id="username">{{username}}</div>
+        <button id="logout" (click)="onLogout()">Logout</button>
+    </div>
+    <div id="MainContent">
+            
+                <div class="linkContainer" (click)="onDisplayAllRuns()" >
+                    <div class="textContent">All Runs</div>
+                </div>
+
+                <div class="linkContainer" (click)="onCreateNewRun()" >
+                    <div class="textContent">New Run</div>
+                </div>
+
+    </div>
+</div>

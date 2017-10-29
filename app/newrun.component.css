@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#back{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #222f3f;
+    position: relative;
+}
+#runForm{
+    position: absolute;
+    margin-top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 330px;
+   height: 340px;
+    border: 1px solid rgba(111,226,203,1);
+
+}
+.formTitle{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgba(111,226,203,1);
+    text-align: center;
+    height: 70px;
+    margin-bottom: 10px;
+    
+}
+#runForm input,label,button{
+    display: block;
+    margin-left:  auto;
+    margin-right: auto;
+    width: 90%;
+    background-color: #222f3f;
+    color: whitesmoke;
+
+}
+#runForm label{
+    text-align: center;
+    color: whitesmoke;
+    margin: 3px;
+}
+#runForm input{
+    height: 30px;
+    border: 0.5px solid rgba(111,226,203,1);
+    padding: 2px;    
+    font-size: 1.1em;
+}
+.sub{
+    height: 30px;
+    margin-top: 10px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgba(111,226,203,1);
+    width: 50%;
+    color: black;
+
+}
+.space{
+    height: 15px;
+}
+
+

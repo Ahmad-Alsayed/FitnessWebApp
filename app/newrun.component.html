@@ -1,0 +1,30 @@
+<div id="back">
+  <form (ngSubmit)="onSubmit(runDetails.value)" #runDetails="ngForm" id="runForm">
+      <div class="formTitle">Create</div>
+    <div id="head"></div>
+      <div id="distance_group">
+          <label><b>Distance</b></label>
+          <input type="text" placeholder="Distance" name="distance"  required ngControl="distance">
+          <div class="space"></div>
+  </div>
+
+  <div id="duration_group">
+          <label><b>Duration</b></label>
+          <input type="text" placeholder="Duration" name="duration" required ngControl="duration">
+          <div class="space"></div>
+          
+  </div>
+
+  <div id="date_group">
+      <label><b>Date</b></label>
+      <input type="date" placeholder="Date" name="Date" required ngControl="date">
+      <div class="space"></div>
+
+</div>
+                      
+
+                              
+  <button type="submit" class="sub"><div id="subtext">Add</div></button>
+
+  </form>
+</div>

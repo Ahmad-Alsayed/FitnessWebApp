@@ -1,0 +1,32 @@
+<div class="bg">
+  <div id="FormContainer">
+    
+        <div id="section1"></div>
+        <div id="section2">
+                <div id="form">
+                        <form (ngSubmit)="onSubmit(mediaItemForm.value)" #mediaItemForm="ngForm">
+                            <div class="container">
+                                <div id="username_group">
+                                        <label><b>Email</b></label>
+                                        <input type="text" placeholder="Username" name="username"  required ngControl="username">
+                                        <div class="space"></div>
+                                </div>
+                            
+                                <div id="password_group">
+                                        <label><b>Password</b></label>
+                                        <input type="password" placeholder="Password" name="password" required ngControl="password">
+                                        <div class="space"></div>
+                                        
+                                </div>
+                                                    
+                          
+                                                            
+                                <button type="submit" class="sub"><div id="subtext">Sign In</div></button>
+                              
+                            </div>
+                          </form>
+                </div>
+        </div>
+    
+  </div>
+</div>

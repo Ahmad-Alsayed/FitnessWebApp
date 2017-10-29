@@ -1,0 +1,29 @@
+.bg{
+    background-color: #222F3F;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+table{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    border-width: 1px;
+    border-color: rgba(111,226,203,1);
+    border-style: solid;
+    width: 45%;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+body *{
+    color: white;
+}
+table *{
+    text-align: left;
+    padding: 10px;
+    color: white;
+}
+
